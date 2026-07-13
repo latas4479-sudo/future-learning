@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Future Learning Research</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#FFF6F9,#EEF7FF);
+overflow-x:hidden;
+color:#333;
+}
+
+header{
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#7C5CFC;
+}
+
+nav a{
+text-decoration:none;
+margin-left:25px;
+color:#444;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#7C5CFC;
+}
+
+.hero{
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding:70px 8%;
+flex-wrap:wrap;
+}
+
+.left{
+flex:1;
+min-width:300px;
+animation:slideLeft 1.2s ease;
+}
+
+.left h1{
+font-size:52px;
+line-height:1.2;
+margin-bottom:20px;
+}
+
+.left span{
+color:#7C5CFC;
+}
+
+.left p{
+font-size:18px;
+color:#666;
+margin-bottom:35px;
+max-width:500px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+background:#7C5CFC;
+color:white;
+text-decoration:none;
+border-radius:50px;
+font-weight:600;
+transition:.3s;
+box-shadow:0 12px 30px rgba(124,92,252,.3);
+}
+
+.btn:hover{
+transform:translateY(-5px);
+}
+
+.right{
+flex:1;
+text-align:center;
+min-width:300px;
+animation:float 4s ease-in-out infinite;
+}
+
+.right img{
+width:90%;
+max-width:520px;
+}
+
+section{
+padding:80px 8%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+transition:.4s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h3{
+margin-bottom:12px;
+color:#7C5CFC;
+}
+
+.idea{
+text-align:center;
+}
+
+.idea h2{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.idea p{
+max-width:650px;
+margin:auto;
+color:#666;
+margin-bottom:35px;
+}
+
+footer{
+text-align:center;
+padding:35px;
+background:white;
+margin-top:50px;
+}
+
+.circle{
+position:fixed;
+border-radius:50%;
+background:#E8DFFF;
+opacity:.4;
+z-index:-1;
+animation:float 7s infinite ease-in-out;
+}
+
+.c1{
+width:180px;
+height:180px;
+left:-60px;
+top:-40px;
+}
+
+.c2{
+width:250px;
+height:250px;
+right:-80px;
+bottom:-80px;
+}
+
+@keyframes float{
+0%{transform:translateY(0px);}
+50%{transform:translateY(-25px);}
+100%{transform:translateY(0px);}
+}
+
+@keyframes slideLeft{
+from{
+opacity:0;
+transform:translateX(-60px);
+}
+to{
+opacity:1;
+transform:translateX(0);
+}
+}
+
+@media(max-width:900px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+}
+
+.left h1{
+font-size:38px;
+}
+
+.left p{
+margin:auto;
+margin-bottom:30px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+
+<header>
+
+<div class="logo">🌈 FutureSpark</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Mission</a>
+<a href="#">Ideas</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="left">
+
+<h1>
+Help Build the
+<span>Future</span>
+of Learning
+</h1>
+
+<p>
+
+I'm researching what students, parents and teachers really need.
+
+Not promoting an app.
+
+Not selling anything.
+
+Just collecting genuine ideas that could shape the future of education.
+
+</p>
+
+<a class="btn"
+href="https://forms.gle/6161W6uKruhCncT46"
+target="_blank">
+
+Share Your Idea 🚀
+
+</a>
+
+</div>
+
+<div class="right">
+
+<img src="file:///C:/Users/hp/Downloads/undraw_video-tutorial_lgts.svg">
+
+</div>
+
+</section>
+
+<section>
+
+<h2 style="text-align:center;font-size:38px;">
+Why I'm Doing This
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>💡 Fresh Ideas</h3>
+
+<p>
+
+Sometimes the best ideas come from ordinary people—not companies.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🎯 Real Problems</h3>
+
+<p>
+
+I want to understand what learners and parents actually struggle with every day.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h3>🚀 Future Vision</h3>
+
+<p>
+
+Your idea might inspire something that helps thousands of students in the future.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="idea">
+
+<h2>Your Voice Matters ❤️</h2>
+
+<p>
+
+Whether your idea is small or big, practical or creative, I'd genuinely love to hear it.
+
+Every response helps me understand what people truly want from future educational tools.
+
+</p>
+
+<a class="btn"
+href="https://forms.gle/6161W6uKruhCncT46"
+target="_blank">
+
+Submit an Idea
+
+</a>
+
+</section>
+
+<footer>
+
+Made with ❤️ by a student who believes great ideas can come from anyone.
+
+</footer>
+
+</body>
+</html>
